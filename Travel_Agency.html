@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <style>
+        @media screen and (max-width:768px) {
+            .main_hero_11{
+                        display:none
+            }
+            .focus_1{
+                        text-align:left;
+            }
+            body{
+                background-color: #FFFAB7;
+            }
+        }
+
+        @media screen and (max-width:768px) {
+            
+        }
+    </style>
+</head>
+<body > <!--do not forget to add the icon for scolling back up-->
+        <div style=" width:100%; background-color:#FFFAB7; ">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-left:10rem; margin-right:10rem; background-color:#FFFAB7; ">
+                <div class="container-fluid" style="background-color:#FFFAB7;">
+                <a class="navbar-brand" href="#"><img src="./Images/63b266716c21e622ca15f940_logo.png" alt="mainIcon" class="w-[7rem] h-[3rem]"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-5 ps-5" id="navbarSupportedContent" style="justify-content:end; background-color:#FFFAB7;">
+                    <ul class="navbar-nav  mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>  
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>             
+                    </ul>
+                    <form class="d-flex me-2">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <button class="btn btn-success me-2" type="submit">Register</button>
+                    </form>
+                </div>
+                </div>
+            </nav>
+
+            <div>
+                <div>
+                    <div class="container-fluid d-flex align-items-start">
+                        <img src="./Images/63b3b45bc096181bd82b7146_hero-element-1.svg" alt="floatingBalloon" class="ps-5" style="padding-top: 1.5rem; border: none">
+                        <div class="ps-5" style="margin-top:4rem;">
+                            <div class="d-flex">
+                                <p class="text-decoration-bold text-success h5">Explore the World</p>
+                                <img src="./Images/63b3b49c4632666b21607225_earth-location.png" alt="earthLocation" >
+                            </div>
+                            <p class="" style="font-size:3rem; color:#1F3347;"><b>Let’s find your</b></p>
+                            <p class="" style="font-size:3rem; color:#1F3347;"><b>dream <span class="text-primary">Destination</span></b></p>
+                            <p class="" style="font-size:3rem; color:#1F3347;"><b>make with enjoy</b></p>
+                            <p class="" style="color: #565657">Travor is one of the most popular Travel agency for those who</p>
+                            <p class="" style="color: #565657">want to explore the wold and try to make adventure</p>
+                            <div>
+                                <button class="btn btn-warning" style="z-index:2">Plan a Trip</button>
+                                <a href="#" class="ms-3 text-success">Get price</a>
+                            </div> 
+                        </div>
+                        <img src="./Images/63b3abed15f96008551dfb51_hero-img.png" alt="heroImage_1" class="main_hero_11" style="height: 30rem; width: 30rem; margin-top:4rem;">
+                    </div>
+                <img src="./Images/63b3b59219c92c85c34ca861_hero-element-2.svg" alt="heroImage_2" style="margin-top:-15rem; "> 
+                </div>      
+        </div>
+    </div> 
+    <!--
+        <div class="container m-auto">
+            <div class="row d-flex border border-success rounded-pill " style="width:auto; height:auto; margin-top:-4rem; background-color:#FFFAB7; border:solid; border-color:black">
+                        <div class=" col-lg-6 col-xl-2">
+                            <p class="text-dark d-flex justify-content-center" style=""><b>Destination</b></p>
+                            <input placeholder="Search Location" style="background-color:#FFFAB7" class="d-flex justify-content-center"></input>
+                        </div>
+                        <img src="./Images/greenLine.png" alt="greenLine">
+                        <div class=" col-md-12 col-lg-6 col-xl-2"> 
+                            <p class="text-dark d-flex justify-content-center" style="">Type</p>
+                            <input list="browsers" placeholder="Adventure" style="background-color:#FFFAB7" class="d-flex justify-content-center">
+                                <datalist id="browsers">
+                                    <option value="Adventure">
+                                    <option value="Beaches">
+                                    <option value="City Tour">
+                                    <option value="Hiking">
+                                    <option value="Honeymoon">
+                                </datalist>
+                        </div>
+                        <img src="./Images/greenLine.png" alt="greenLine">
+                        <div class=" col-md-12 col-lg-6 col-xl-2">
+                            <p class="text-dark d-flex justify-content-center" style="">Date</p>
+                            <input placeholder="Type Date" style="background-color:#FFFAB7"></input>
+                        </div>
+                        <img src="./Images/greenLine.png" alt="greenLine">
+                        <div class=" col-md-12 col-lg-6 col-xl-2 d-flex justify-content-center">
+                            <p class="text-dark d-flex justify-content-center" style="">Guest</p>
+                            <div>
+                                <input list="browsers" placeholder="01 Person" style="background-color:#FFFAB7">
+                                <datalist id="browsers">
+                                    <option value="01 Person">
+                                    <option value="02 Persons">
+                                    <option value="03 Persons">
+                                    <option value="04 Persons">
+                                    <option value="05 Persons">
+                                </datalist>
+                            </div>
+                        </div> 
+                        <button class="d-flex justify-content-center rounded-pill btn-warning col-md-12 col-lg-6 col-xl-2" style="height:3rem; width:6rem;">Find</button>   
+                    </div>   
+        </div>
+    -->
+    <div class="focus_1">
+        <p class="h2 text-center" style="color:#1F3347; margin-top:10rem;"><b>We always focus on best Benefits as</b></p>
+        <p class="h2 text-center" style="color:#1F3347; margin-top:2rem;"><b>well as <span class=" text-success text-decoration-underline">Professional</span> Service</b></p>
+    </div>
+    <div class="container " style="margin-top:7rem; ">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="./Images/63b3fae2d81a376e095813dd_service-img-1.svg" alt="carOnTrip">
+                <h3>Exclusive Trip</h3>
+                <p>Arrange various types of tour for</p>
+                <p>our customers with adventure</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="./Images/63b3fae3157c550acf0e5f33_service-img-2.svg" alt="threeDocuments">
+                <h3>Lots of Choices</h3>
+                <p>We arrange various types of tour</p>
+                <p>and trip around the world</p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <img src="./Images/63b3fae2d81a3749a05813dc_service-img-3.svg" alt="bagsForTravel">
+                <h3>Professional guide</h3>
+                <p>Our Professional guides are always</p>
+                <p>ready to guide you professionally</p>
+            </div>
+        </div>
+    </div>    
+    <div class="d-flex align-items-start" style="margin-top:10rem; margin-left:6.5rem;">
+        <p class="h3" style="color:#1F3347; ">Most Attractive</p>
+        <img src="./Images/63ba488de91f66f2c230d9d1_location.png" alt="pin_1" style="width:1.5rem; height: 1.5rem; margin-top: 0.3rem; margin-left:1rem;">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-6">
+                <p class="h1 mt-3" style="color:#1F3347; "><b>Popular <span style="color:#DC6B19;">Destination</span></b></p>
+                <p class="h1" style="color:#1F3347; "><b>we offer for all</b></p>
+            </div>
+            <div class=" col-md-12 col-lg-6">
+                <p><span class="text-success">850+</span> Destinations</p>
+                <div class="d-flex">
+                    <img src="./Images/greenLine.png" alt="greenLine">
+                    <div>
+                        <p class="mt-3">Travor is one of the most popular Travel agency for those</p>
+                        <p>who want to explore the wold and try to make adventure</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <div class="container" style="margin-top: 3rem;">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 col-xl-3 col-sm-12" style="margin-top: 3rem;">
+                <div class="card" style="width: 18rem;">
+                    <img src="Images/63b51b6bd3a552cfc5d6e6fb_destination-1.jpg" class="card-img-top" alt="maldives">
+                    <div class="card-body">
+                    <h5 class="card-title">Nuda Penida, Maldives</h5>
+                    <p class="card-text">$110/person</p>
+                    <a href="#" class="btn btn-primary">Book</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 col-sm-12" style="margin-top: 3rem;">
+                <div class="card" style="width: 18rem;">
+                    <img src="Images/63b539ccf645d10c29a1c32c_destination-2.jpg" class="card-img-top" alt="uae">
+                    <div class="card-body">
+                    <h5 class="card-title">Dubai desert, UAE</h5>
+                    <p class="card-text">$170/person</p>
+                    <a href="#" class="btn btn-primary">Book</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 col-sm-12" style="margin-top: 3rem;">
+                <div class="card" style="width: 18rem;">
+                    <img src="Images/63b53b74fcbe5221f33d8887_destination-3.jpg" class="card-img-top" alt="italy">
+                    <div class="card-body">
+                    <h5 class="card-title">Venice, Italy</h5>
+                    <p class="card-text">$210/person</p>
+                    <a href="#" class="btn btn-primary">Book</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 col-sm-12" style="margin-top: 3rem;">
+                <div class="card" style="width: 18rem;">
+                    <img src="Images/63b53b8aef596091f93f9d55_destination-4.jpg" class="card-img-top" alt="greece">
+                    <div class="card-body">
+                    <h5 class="card-title">Santorini, Greece</h5>
+                    <p class="card-text">$110/person</p>
+                    <a href="#" class="btn btn-primary">Book</a>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <div class="mx-5" style="margin-top:4rem;">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Tour Package #1
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                <strong>Adventure.</strong> This is for the brave hearts who want to push their limits higher.
+                </div>
+            </div>
+            </div>
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Tour Package #2
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                <strong>City Tour.</strong> This is for the level headed people who want to tour cities.
+                </div>
+            </div>
+            </div>
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Tour Package #3
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                <strong>Honey Moon.</strong> This is for the lover birds.
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top:4rem;">
+        <div class="mx-5">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Destination of Interest</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+    </div>
+    <!-- <div>
+        <div>
+            <p>Our Newsletter</p>
+            <img src="Images/63ba5dcc15cbc7d0c08ac737_checklist-paper-icon.png" alt="paperIcon">
+        </div>
+        <div>
+            </div><div>
+                <h3>Subscribe our</h3>
+                <h3>Newsletter now!</h3>
+                <p>For latest updates & Promotions</p>
+            </div>
+        </div>
+        <div>
+             <input type="text" placeholder="Enter your mail here">
+            <a href=""><button>Subscribe</button></a>
+        </div>
+        <img src="Images/63ba63479d70bbf281d57dbf_newsletter-element.svg" alt="newsletterElement">
+    </div> 
+    <div>
+        <img src="Images/63bbddf1c04c8a8fa353ad4c_footer-element-1.svg" alt="footerElement1">
+        <div>
+            <a href=""><img src="./Images/63b266716c21e622ca15f940_logo.png" alt="mainIcon"></a>
+            <p>Travor is one of the most popular</p>
+            <p>Travel agency for those who</p>
+            <p>want to explore the wold</p>
+            <div>
+                 for the icons-->
+            <!-- </div>
+        </div>
+        <div>
+            <p>Information</p>
+            <p>About</p>
+            <p>Destination</p>
+            <p>Package</p>
+            <p>Our Blogs</p>
+            <p>Contacts</p>
+        </div>
+        <div>
+            <p>Support</p>
+            <p>Login</p>
+            <p>Signup</p>
+            <p>Style Guide</p>
+            <p>Change Log</p>
+            <p>Licenses</p>
+        </div>
+        <div>
+            <p>Contact
+            </p>
+            <p>842D North Town, KG Tower</p>
+            <p>Smith Manson, New York</p>
+            <p>+12345 678 984</p>
+            <p>+12345 678 984</p>
+            <p>www.example.com</p>
+            <img src="Images/63bbde0d7fceb0d38c67d93b_footer-element-2.svg" alt="footerElement2">
+        </div>
+    </div>  -->
+    <footer>
+        <p class="text-center">© 2023 design and developed by Brandbes. Powered by Webflow.</p>
+        <i class="bi bi-facebook"></i>
+        <div>
+            
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
